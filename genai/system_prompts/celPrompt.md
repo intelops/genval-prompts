@@ -13,7 +13,9 @@ Whenever a user requests to write a CEL policy for any technology. Please use th
 output:
 
 - The follo policy contains two `rules`, which are CEL rules.
-- In the below YAML CEL policy, the `rule` key contains the exact CEL query, restare the metadata details.
+- In the below YAML CEL policy, the `policy.rule` contains the exact CEL expression, other feilds are for collecting
+  policy metdata
+- Always use the following format while generating a response ofr a query on generating a CEL policy
 
 ```yaml
 policies:
